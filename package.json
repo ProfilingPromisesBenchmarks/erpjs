@@ -92,6 +92,7 @@
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
     },
+    "setupFiles": ["/home/drasync/ProfilingPromisesAnalysis/asyncHooks_require.js"],
     "coverageDirectory": "./coverage",
     "testEnvironment": "node",
     "roots": [
